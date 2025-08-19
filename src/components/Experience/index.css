@@ -1,0 +1,132 @@
+
+.experience-section {
+  width: 100%;
+  padding: 80px 10%;
+  background-color: #f8f9fa; 
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-container {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+
+.experience-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #5282B1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.experience-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 60px;
+}
+
+
+.experience-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  text-align: left;
+}
+
+
+.experience-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.company-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.job-role {
+  font-size: 1.1rem;
+  color: #475569;
+  margin-top: -10px;
+}
+
+.company-image-wrapper {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
+}
+
+.company-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.company-image-wrapper:hover,
+.company-image-wrapper.highlighted {
+  background-color: #3b82f6;
+  padding: 15px;
+  transform: scale(1.05);
+}
+
+
+.experience-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 500px;
+}
+
+.experience-right li {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #334155;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-left: 25px;
+}
+
+.experience-right li::before {
+  content: '✓';
+  color: #3b82f6;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+
+
+@media (max-width: 992px) {
+  .experience-content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .experience-left, .experience-right {
+    text-align: center;
+  }
+  .experience-right li {
+    padding-left: 0;
+    text-align: left;
+  }
+  .experience-right li::before {
+    display: none; 
+  }
+}
