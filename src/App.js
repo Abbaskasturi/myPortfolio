@@ -1,4 +1,7 @@
+// App.js
+
 import './App.css';
+import Header from './components/Header'; // <-- Add this import
 import About from './components/About';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
@@ -11,11 +14,9 @@ import SocialLinks from './components/SocialLinks';
 function App() {
   return (
     <div className="App">
-      
+      <Header /> 
       <SocialLinks /> 
       <ScrollToTop />
-
-  
       <HeroSection />
       <About />
       <Skills />

@@ -1,3 +1,5 @@
+// components/HeroSection/index.js
+
 import { TypeAnimation } from 'react-type-animation';
 import './index.css';
 

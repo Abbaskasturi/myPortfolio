@@ -1,140 +1,139 @@
-
 .contact-section {
-  width: 100%;
-  padding: 80px 10%;
-  background-color: #ffffff;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 80px 10%;
+    background-color: #ffffff;
+    box-sizing: border-box;
 }
 
 .contact-container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
 .contact-subtitle {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #5282B1;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #5282B1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
 }
 
 .contact-title {
-  font-size: 3rem;
-  font-weight: 700;
-  color: #1e293b;
-  margin-bottom: 60px;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 60px;
 }
 
 
 .contact-content {
-  display: flex;
-  gap: 3rem;
-  text-align: left;
+    display: flex;
+    gap: 3rem;
+    text-align: left;
 }
 
 
 .contact-left {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-content: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
 }
 
 .contact-info-item {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 .contact-icon {
-  font-size: 2.5rem;
-  color: #3b82f6;
+    font-size: 3rem; 
+    color: #3b82f6;
 }
 
 .contact-info-text h3 {
-  margin: 0 0 5px 0;
-  font-size: 1.2rem;
-  color: #1e293b;
+    margin: 0 0 5px 0;
+    font-size: 1.2rem;
+    color: #1e293b;
 }
 
 .contact-info-text p {
-  margin: 0;
-  font-size: 1rem;
-  color: #475569;
+    margin: 0;
+    font-size: 1rem;
+    color: #475569;
 }
 
 
 .contact-right {
-  flex: 1.5;
-  background-color: #f8fafc;
-  padding: 2.5rem;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    flex: 1.5;
+    background-color: #f8fafc;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-right:hover {
-  transform: translateY(-10px);
-  background-color: #3b82f6;
-  box-shadow: 0 20px 40px -15px rgba(59, 130, 246, 0.5);
+    transform: translateY(-10px);
+    background-color: #3b82f6;
+    box-shadow: 0 20px 40px -15px rgba(59, 130, 246, 0.5);
 }
 
 .form-group {
-  margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .form-group label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: 600;
-  color: #334155;
-  transition: color 0.3s ease;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #334155;
+    transition: color 0.3s ease;
 }
 
 .contact-right:hover .form-group label {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .form-group input,
 .form-group textarea {
-  width: 100%;
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #cbd5e1;
-  background-color: #ffffff;
-  font-size: 1rem;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    background-color: #ffffff;
+    font-size: 1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
-  outline: none;
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
 }
 
 .submit-button {
-  width: 100%;
-  padding: 14px;
-  border: none;
-  border-radius: 8px;
-  background-color: #5282B1;
-  color: #ffffff;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #5282B1;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .contact-right:hover .submit-button {
-  background-color: #ffffff;
-  color: #3b82f6;
+    background-color: #ffffff;
+    color: #3b82f6;
 }
 
 
@@ -146,9 +145,8 @@
 }
 
 
-
 @media (max-width: 992px) {
-  .contact-content {
-    flex-direction: column;
-  }
+    .contact-content {
+        flex-direction: column;
+    }
 }
