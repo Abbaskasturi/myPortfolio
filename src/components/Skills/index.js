@@ -14,9 +14,7 @@ const skillsData = [
   { name: 'MySQL', imgSrc: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg' },
   { name: 'SQLite', imgSrc: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg' },
   { name: 'Responsive Design', imgSrc: 'https://tse1.mm.bing.net/th/id/OIP.wSMkWYTUAhaF8xtI65QTNwHaEK?rs=1&pid=ImgDetMain' },
-
   { name: 'No-Code/Low-Code', imgSrc: 'https://th.bing.com/th/id/OIP.ER0Ce2g7Km6tGgOdbIp_OAHaEO?rs=1&pid=ImgDetMain' },
-
   { name: 'AI Tools', imgSrc: 'https://tse4.mm.bing.net/th/id/OIP.qxL61yUKtmy_5wactqtOPgHaEb?rs=1&pid=ImgDetMain' },
 ];
 

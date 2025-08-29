@@ -1,7 +1,16 @@
-/* Base Styles for all screen sizes */
+/* This is the core styling for a fixed sidebar. It will apply to all screen sizes. */
 .social-links-container {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: rgba(29, 39, 58, 0.8);
+    backdrop-filter: blur(5px);
+    padding: 20px 15px;
+    border-radius: 15px 0 0 15px;
+    box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.2);
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Stacks icons vertically */
     gap: 20px;
     z-index: 1000;
 }
@@ -33,17 +42,14 @@
     transform: scale(1.1);
 }
 
-/* Styles for Desktop (769px and above) */
-@media (min-width: 769px) {
+/* Optional: Adjust for smaller screens if necessary, but keep it fixed. */
+@media (max-width: 768px) {
     .social-links-container {
-        position: fixed;
-        top: 50%;
-        right: 0;
-        transform: translateY(-50%);
-        background-color: rgba(29, 39, 58, 0.8);
-        backdrop-filter: blur(5px);
-        padding: 20px 15px;
-        border-radius: 15px 0 0 15px;
-        box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.2);
+        padding: 15px 10px; /* Adjust padding for smaller screens */
+        gap: 15px;
+    }
+    .social-image-wrapper {
+        width: 40px;
+        height: 40px;
     }
 }
