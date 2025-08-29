@@ -1,9 +1,8 @@
-
 .about-section {
   width: 100%;
   min-height: 100vh;
   padding: 80px 10%;
-  background-color: #f8f9fa; 
+  background-color: #f8f9fa;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,16 +14,14 @@
   max-width: 1200px;
 }
 
-
 .about-heading {
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 50px;
-  color: #2596be; 
+  color: #2596be;
   position: relative;
 }
-
 
 .about-content {
   display: flex;
@@ -32,7 +29,6 @@
   justify-content: center;
   gap: 50px;
 }
-
 
 .about-image-column {
   flex: 0 0 300px;
@@ -48,7 +44,6 @@
   background: linear-gradient(145deg, #e6e6e6, #ffffff);
   box-shadow: 20px 20px 60px #d4d4d4, -20px -20px 60px #ffffff;
   cursor: pointer;
-  
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, padding 0.3s ease-in-out;
   display: flex;
   align-items: center;
@@ -62,16 +57,13 @@
   object-fit: cover;
 }
 
-
 .about-image-wrapper:hover,
 .about-image-wrapper.highlighted {
-  background-color: #2596be; 
-  padding: 15px; 
-  box-shadow: 0 0 20px rgba(37, 150, 190, 0.5); 
-  transform: scale(1.05); 
+  background-color: #2596be;
+  padding: 15px;
+  box-shadow: 0 0 20px rgba(37, 150, 190, 0.5);
+  transform: scale(1.05);
 }
-
-
 
 .about-text-column {
   flex: 1;
@@ -99,7 +91,6 @@
   align-items: flex-start;
 }
 
-
 .about-text-column li::before {
   content: '✅';
   margin-right: 12px;
@@ -107,22 +98,17 @@
   line-height: 1.5;
 }
 
-
-
 @media (max-width: 992px) {
   .about-content {
     flex-direction: column;
     gap: 40px;
   }
-
   .about-text-column {
     text-align: center;
   }
-
   .about-text-column li {
     text-align: left;
   }
-
   .about-image-column {
     align-items: center;
   }
@@ -132,35 +118,29 @@
   .about-section {
     padding: 60px 5%;
   }
-
   .about-heading {
     font-size: 2.5rem;
     margin-bottom: 30px;
   }
-
   .about-image-wrapper {
     width: 250px;
     height: 250px;
   }
-
   .about-image-column {
     flex-basis: auto;
   }
-
   .about-text-column p,
   .about-text-column li {
     font-size: 1rem;
   }
 }
 
-
 @media (min-width: 1200px) {
   .about-image-column {
     flex-basis: 350px;
   }
-
   .about-image-wrapper {
-    width: 350px; 
-    height: 350px; 
+    width: 350px;
+    height: 350px;
   }
 }

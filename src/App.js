@@ -1,7 +1,7 @@
 // App.js
 
 import './App.css';
-import Header from './components/Header'; // <-- Add this import
+import Header from './components/Header'; 
 import About from './components/About';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
